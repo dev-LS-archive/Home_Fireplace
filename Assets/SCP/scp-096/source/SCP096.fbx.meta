@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: ec6595b107da85f489b06f9282c0ede6
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 3073762550149190676
+    second: scp096_skeleton|scp096_attack
+  - first:
+      74: -5357516250108693934
+    second: scp096_skeleton|scp096_idle
+  - first:
+      74: -3447480598914231043
+    second: scp096_skeleton|scp096_idle2
+  - first:
+      74: -380020458640945468
+    second: scp096_skeleton|scp096_idle3
+  - first:
+      74: 8481950576424801973
+    second: scp096_skeleton|scp096_panic
+  - first:
+      74: -441384796615226326
+    second: scp096_skeleton|scp096_run
+  - first:
+      74: 2219604955222180569
+    second: scp096_skeleton|scp096_sit
+  - first:
+      74: -1316021111082652845
+    second: scp096_skeleton|scp096_sit2
+  - first:
+      74: -2564210421051748817
+    second: scp096_skeleton|scp096_sitdown
+  - first:
+      74: -8703165645246980436
+    second: scp096_skeleton|scp096_sittransition
+  - first:
+      74: 3407437721086021600
+    second: scp096_skeleton|scp096_situp
+  - first:
+      74: -5610377353584036884
+    second: scp096_skeleton|scp096_walk
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCP096.bmp
+    second: {fileID: 2100000, guid: eae09cd9cf1697443a4909adcb7b8095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCP096EYES.bmp
+    second: {fileID: 2100000, guid: d2f90d9e25538d542a1ab46cae00d783, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'scp096_skeleton|scp096_attack' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bone_015' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bone_016'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'scp096_skeleton|scp096_idle3' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Bone_015' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Bone_016' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'scp096_skeleton|scp096_panic'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bone_015'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone_016'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'scp096_skeleton|scp096_sitdown' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Bone_015' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Bone_016' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'scp096_skeleton|scp096_situp'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Bone_015'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone_016'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_attack
+      takeName: scp096_skeleton|scp096_attack
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_idle
+      takeName: scp096_skeleton|scp096_idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_idle2
+      takeName: scp096_skeleton|scp096_idle2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_idle3
+      takeName: scp096_skeleton|scp096_idle3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_panic
+      takeName: scp096_skeleton|scp096_panic
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_run
+      takeName: scp096_skeleton|scp096_run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_sit
+      takeName: scp096_skeleton|scp096_sit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_sit2
+      takeName: scp096_skeleton|scp096_sit2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_sitdown
+      takeName: scp096_skeleton|scp096_sitdown
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_sittransition
+      takeName: scp096_skeleton|scp096_sittransition
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_situp
+      takeName: scp096_skeleton|scp096_situp
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scp096_skeleton|scp096_walk
+      takeName: scp096_skeleton|scp096_walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_017
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_018
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_019
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_020
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_021
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_022
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_002
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ripcage
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_007
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_008
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_009
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_010
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_012
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_014
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_011
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_013
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperjaw
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerjaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SCP096(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: scp096
+      parentName: SCP096(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: scp096_skeleton
+      parentName: SCP096(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Scene_Root
+      parentName: scp096_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071067, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root1
+      parentName: Scene_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root2
+      parentName: Scene_Root1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root3
+      parentName: Scene_Root2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root4
+      parentName: Scene_Root3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root5
+      parentName: Scene_Root4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddlePivot
+      parentName: Scene_Root5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: MiddlePivot
+      position: {x: -0, y: 0, z: -0.000084415035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeleton
+      parentName: Bone
+      position: {x: -0, y: 0, z: -9.254819e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scene_Root6
+      parentName: Skeleton
+      position: {x: -0, y: 0, z: -9.254819e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature1
+      parentName: Scene_Root6
+      position: {x: -0.000000060000005, y: 0.0000076999995, z: 0.000047388006}
+      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: pelvis
+      parentName: Armature1
+      position: {x: 4.0003216e-11, y: -0.00002437735, z: 0.00013499337}
+      rotation: {x: -0.0544525, y: 0.0013028838, z: -0.023884565, w: 0.99822986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_002
+      parentName: pelvis
+      position: {x: 9.3132255e-15, y: 0.0000091290385, z: -0.0000000021994113}
+      rotation: {x: 0.5636583, y: -0.0043769907, z: -0.009936494, w: 0.8259367}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: ripcage
+      parentName: Bone_002
+      position: {x: -9.778887e-14, y: 0.00003583989, z: 0.000000001681195}
+      rotation: {x: 0.33386096, y: 0.06711366, z: 0.029009704, w: 0.93978244}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Bone_007
+      parentName: ripcage
+      position: {x: 2.6077033e-13, y: 0.000044679116, z: -7.778406e-11}
+      rotation: {x: -0.43686542, y: 0.6421682, z: 0.42233843, w: 0.46733165}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Bone_009
+      parentName: Bone_007
+      position: {x: -6.824732e-10, y: 0.000023482524, z: 0.0000000016856194}
+      rotation: {x: -0.163394, y: -0.8020766, z: 0.017169539, w: 0.5741784}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Bone_012
+      parentName: Bone_009
+      position: {x: -2.0056964e-10, y: 0.00007466338, z: 3.990531e-10}
+      rotation: {x: 0.0187159, y: 0.5549354, z: -0.011753497, w: 0.8315999}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
+    - name: Bone_011
+      parentName: Bone_012
+      position: {x: -0.0000000014767052, y: 0.000059006677, z: -9.1955066e-10}
+      rotation: {x: 0.6127566, y: -0.70423436, z: -0.31200114, w: 0.17674452}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Bone_023
+      parentName: Bone_011
+      position: {x: 4.172325e-11, y: 0.000014702279, z: -6.3017014e-10}
+      rotation: {x: -0.11507964, y: 0.30498695, z: -0.40143526, w: 0.85591435}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Bone_008
+      parentName: ripcage
+      position: {x: -5.2154066e-13, y: 0.000044679116, z: -7.78865e-11}
+      rotation: {x: 0.40755937, y: 0.6573035, z: 0.449115, w: -0.4473737}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Bone_010
+      parentName: Bone_008
+      position: {x: 7.6413154e-10, y: 0.000023482518, z: 0.0000000016391278}
+      rotation: {x: -0.17146574, y: 0.6247031, z: -0.020033738, w: 0.7615406}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Bone_014
+      parentName: Bone_010
+      position: {x: 3.5494568e-10, y: 0.000074663316, z: 3.254414e-10}
+      rotation: {x: 0.008029236, y: -0.038325634, z: 0.014653524, w: 0.9991256}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bone_013
+      parentName: Bone_014
+      position: {x: 0.000000001603514, y: 0.000059006717, z: -0.0000000010836125}
+      rotation: {x: 0.5595152, y: -0.11462954, z: -0.23446038, w: 0.7866582}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Bone_024
+      parentName: Bone_013
+      position: {x: -1.0728836e-11, y: 0.000014702229, z: -6.398559e-10}
+      rotation: {x: -0.22423825, y: -0.20275746, z: 0.3554396, w: 0.8844599}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: neck
+      parentName: ripcage
+      position: {x: 5.587935e-13, y: 0.00004467515, z: -4.4692305e-10}
+      rotation: {x: -0.021889819, y: 0.8521067, z: 0.5228461, w: 0.008184781}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: head
+      parentName: neck
+      position: {x: 5.9604643e-13, y: 0.000016545193, z: 0.0000000043482147}
+      rotation: {x: 0.6021329, y: -0.034876123, z: -0.010562484, w: 0.79756385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lbrow
+      parentName: head
+      position: {x: 0.0000004436027, y: 0.000012960634, z: -0.000017063125}
+      rotation: {x: 0.32345453, y: 0.88712233, z: -0.0586938, w: 0.32395396}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Leyelid
+      parentName: head
+      position: {x: 0.0000006804015, y: 0.000010246337, z: -0.000014771847}
+      rotation: {x: 0.20190431, y: 0.9783935, z: 0.02582785, w: 0.0362453}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Rbrow
+      parentName: head
+      position: {x: 0.0000004903585, y: 0.000013001, z: -0.000017078}
+      rotation: {x: -0.38554725, y: 0.74087375, z: 0.13030805, w: 0.53430265}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999994}
+    - name: Reyelid
+      parentName: head
+      position: {x: 0.00000041452154, y: 0.000010101403, z: -0.000014706597}
+      rotation: {x: -0.32071248, y: 0.7787077, z: -0.01156878, w: 0.5390956}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: lowerjaw
+      parentName: neck
+      position: {x: 4.4703485e-13, y: 0.000016545193, z: 0.000000004355405}
+      rotation: {x: -0.7609539, y: 0.008344857, z: -0.04084308, w: 0.6474654}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: lowerjaw_001
+      parentName: lowerjaw
+      position: {x: 5.9604643e-13, y: 0.000012144255, z: -7.8010265e-11}
+      rotation: {x: 0.23276433, y: 0.022383891, z: 0.005753062, w: 0.9722585}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+    - name: upperjaw
+      parentName: neck
+      position: {x: 2.2351743e-13, y: 0.00001654519, z: 0.000000004365016}
+      rotation: {x: -0.057970192, y: -0.017471287, z: -0.03371309, w: 0.99759597}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Bone_015
+      parentName: pelvis
+      position: {x: 5.1688406e-13, y: 0.000009129036, z: -0.0000000022020936}
+      rotation: {x: 0.7526599, y: -0.58918595, z: 0.1272744, w: 0.26488522}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Bone_017
+      parentName: Bone_015
+      position: {x: 9.2059377e-10, y: 0.000015197798, z: -0.0000000017239152}
+      rotation: {x: 0.155091, y: 0.47159776, z: 0.75316936, w: 0.43159956}
+      scale: {x: 1, y: 0.9999999, z: 0.99999976}
+    - name: Bone_019
+      parentName: Bone_017
+      position: {x: 9.578467e-10, y: 0.00006608468, z: -3.1888486e-10}
+      rotation: {x: -0.25444666, y: -0.017354084, z: -0.08751393, w: 0.9629626}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_021
+      parentName: Bone_019
+      position: {x: 1.5951694e-10, y: 0.00006775369, z: 0.0000000015193224}
+      rotation: {x: 0.96670496, y: 0.009663348, z: 0.23109223, w: -0.109474026}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: Bone_016
+      parentName: pelvis
+      position: {x: -1.0849908e-12, y: 0.0000091290385, z: -0.0000000022006035}
+      rotation: {x: 0.7719435, y: 0.61824477, z: -0.049245995, w: 0.13946852}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Bone_018
+      parentName: Bone_016
+      position: {x: -9.289384e-10, y: 0.000015197798, z: -0.0000000017186998}
+      rotation: {x: 0.12351988, y: 0.6846176, z: 0.71435446, w: -0.07575918}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Bone_020
+      parentName: Bone_018
+      position: {x: -0.000000001078397, y: 0.00006608468, z: -3.1471253e-10}
+      rotation: {x: -0.16926028, y: -0.03053407, z: 0.1710482, w: 0.9701346}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_022
+      parentName: Bone_020
+      position: {x: -2.7716163e-10, y: 0.000067753805, z: 0.0000000015503168}
+      rotation: {x: 0.6901847, y: 0.040122397, z: -0.71966934, w: -0.064120404}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Eyes
+      parentName: Scene_Root6
+      position: {x: -0.000048011563, y: 1.50892e-13, z: -9.5367525e-12}
+      rotation: {x: 0.0056136195, y: 0.7616897, z: 0.0056136195, w: 0.6478933}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: SCP096
+      parentName: Scene_Root6
+      position: {x: -0.000000060000005, y: 0.0000076999995, z: 0.000047388006}
+      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.004
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
