@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2026721925, guid: b6e8ecfc67f8c524fb2d970e2c4df9a8, type: 3}
+      propertyPath: m_VersionIndex
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 2816794677421266716, guid: b6e8ecfc67f8c524fb2d970e2c4df9a8, type: 3}
       propertyPath: m_Name
       value: Home_Fireplace_V1.0

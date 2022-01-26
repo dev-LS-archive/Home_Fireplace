@@ -27,18 +27,18 @@ MonoBehaviour:
         - rid: 3918044173818396681
         - rid: 3918044173818396682
         - rid: 3918044173818396683
-        - rid: 3918044173818396684
+        - rid: -2
         m_AvailableIndices:
-          rid: -2
+          rid: 3918044305419665408
     - rid: 3918044173818396681
       type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
       data:
         m_Name: CreatureHouse_Short
         m_Fps: 60
         m_Start: 0
-        m_Duration: 4
+        m_Duration: 15
         m_Parent: -1
-        m_Children: 010000000200000003000000
+        m_Children: 0100000002000000
         m_Timeline: {fileID: 11400000, guid: 4af0a8e5cf8f07b4dabf91893168d0b0, type: 2}
         m_ChildrenTrack: {fileID: 3523342644146650522, guid: 4af0a8e5cf8f07b4dabf91893168d0b0, type: 2}
         m_DefaultChildrenTrackName: Sequences
@@ -46,7 +46,7 @@ MonoBehaviour:
     - rid: 3918044173818396682
       type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
       data:
-        m_Name: S00-Run
+        m_Name: S00-Crow
         m_Fps: -1
         m_Start: 0
         m_Duration: 2
@@ -61,7 +61,7 @@ MonoBehaviour:
       data:
         m_Name: S01-049
         m_Fps: -1
-        m_Start: 2
+        m_Start: 7.8
         m_Duration: 2
         m_Parent: 0
         m_Children: 
@@ -69,16 +69,5 @@ MonoBehaviour:
         m_ChildrenTrack: {fileID: 0}
         m_DefaultChildrenTrackName: Sequences
         m_EditorialClipAsset: {fileID: 8318114304297376407, guid: 4af0a8e5cf8f07b4dabf91893168d0b0, type: 2}
-    - rid: 3918044173818396684
-      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
-      data:
-        m_Name: New Sequence
-        m_Fps: -1
-        m_Start: 0
-        m_Duration: 2
-        m_Parent: 0
-        m_Children: 
-        m_Timeline: {fileID: 11400000, guid: 117027e47ee190e449f44d5a18cb324f, type: 2}
-        m_ChildrenTrack: {fileID: 0}
-        m_DefaultChildrenTrackName: Sequences
-        m_EditorialClipAsset: {fileID: -3611177978017374701, guid: 4af0a8e5cf8f07b4dabf91893168d0b0, type: 2}
+    - rid: 3918044305419665408
+      type: {class: StackInt, ns: UnityEngine.Sequences, asm: Unity.Sequences}
